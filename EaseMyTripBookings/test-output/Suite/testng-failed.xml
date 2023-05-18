@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Test Ease My Trip application in Chrome(failed)">
+    <classes>
+      <class name="com.easeMyTripFlightBookings.FlightBookings">
+        <methods>
+          <include name="bookings"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.easeMyTripFlightBookings.FlightBookings -->
+    </classes>
+  </test> <!-- Test Ease My Trip application in Chrome(failed) -->
+  <test thread-count="5" name="Test Ease My Trip application in Edge(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="com.easeMyTripFlightBookings.FlightBookings">
+        <methods>
+          <include name="bookings"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.easeMyTripFlightBookings.FlightBookings -->
+    </classes>
+  </test> <!-- Test Ease My Trip application in Edge(failed) -->
+</suite> <!-- Failed suite [Suite] -->

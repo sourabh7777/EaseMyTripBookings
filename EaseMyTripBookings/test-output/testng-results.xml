@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="85362" started-at="2023-05-18T10:06:31Z" finished-at="2023-05-18T10:07:56Z">
+    <groups>
+    </groups>
+    <test name="Test Ease My Trip application in Chrome" duration-ms="44987" started-at="2023-05-18T10:06:31Z" finished-at="2023-05-18T10:07:16Z">
+      <class name="com.easeMyTripFlightBookings.FlightBookings">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.easeMyTripFlightBookings.FlightBookings@77cd7a0]" name="setUp" is-config="true" duration-ms="17432" started-at="2023-05-18T15:36:31Z" finished-at="2023-05-18T15:36:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="bookings()[pri:0, instance:com.easeMyTripFlightBookings.FlightBookings@77cd7a0]" name="bookings" duration-ms="26352" started-at="2023-05-18T15:36:49Z" finished-at="2023-05-18T15:37:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookings -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.easeMyTripFlightBookings.FlightBookings@77cd7a0]" name="tearDown" is-config="true" duration-ms="1133" started-at="2023-05-18T15:37:15Z" finished-at="2023-05-18T15:37:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.easeMyTripFlightBookings.FlightBookings -->
+    </test> <!-- Test Ease My Trip application in Chrome -->
+    <test name="Test Ease My Trip application in Edge" duration-ms="40335" started-at="2023-05-18T10:07:16Z" finished-at="2023-05-18T10:07:56Z">
+      <class name="com.easeMyTripFlightBookings.FlightBookings">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.easeMyTripFlightBookings.FlightBookings@2f686d1f]" name="setUp" is-config="true" duration-ms="13870" started-at="2023-05-18T15:37:16Z" finished-at="2023-05-18T15:37:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="bookings()[pri:0, instance:com.easeMyTripFlightBookings.FlightBookings@2f686d1f]" name="bookings" duration-ms="24765" started-at="2023-05-18T15:37:30Z" finished-at="2023-05-18T15:37:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookings -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.easeMyTripFlightBookings.FlightBookings@2f686d1f]" name="tearDown" is-config="true" duration-ms="1699" started-at="2023-05-18T15:37:55Z" finished-at="2023-05-18T15:37:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.easeMyTripFlightBookings.FlightBookings -->
+    </test> <!-- Test Ease My Trip application in Edge -->
+  </suite> <!-- Suite -->
+</testng-results>
